@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="/style.css">
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/8dc54e8f9a.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #0F5474; width: 100%;">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 col-sm-12 animation">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets4.lottiefiles.com/temp/lf20_dgjK9i.json" background="transparent"
+                        speed="1" style="width: 200px; height: auto;" loop autoplay></lottie-player>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 animation">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_XkF78Y.json" background="transparent"
+                        speed="1" style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm4 animation">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets9.lottiefiles.com/temp/lf20_Stdaec.json" background="transparent"
+                        speed="1" style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 WeatherHead">
+                    <h1>Weather</h1>
+                    <h4>We will provide you with as much relevant, local weather data as we can uncover.</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form action="/" method="post">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 CityName">
+                                <label for="cityInput">Find a Forecast:</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 cityInput input-icons">
+                                    <i class="fa fa-search icon"></i>
+                                    <input name="cityName" class="input-field" type="text">
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
